@@ -6,3 +6,22 @@
 .secao-titulo{
     font-size: 1.2rem;
 }
+
+.secao-videos{
+    grid-area: secao-videos;
+}
+
+.secao-produtos{
+    grid-area: secao-produtos;
+}
+
+@media screen and (min-width: 1440px){
+    .secao{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 16px;
+    }
+    .secao-titulo{
+        grid-column: 1 / 5;
+    }
+}

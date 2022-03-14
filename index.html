@@ -19,6 +19,7 @@
     <header class="cabecalho">
         <button class="cabecalho__menu" aria-label="menu"><i class="icone"></i></button>
         <img class="cabecalho__logo" src="assets/img/logo.svg" alt="Logotipo da HZC">
+        <p class="cabecalho__perfil">Henrique Alves</p>
         <button class="cabecalho__notificacao"><i class="icone" aria-label="notificação"></i></button>
     </header>
     <nav class="menu-lateral">
@@ -32,8 +33,9 @@
     </nav>
     <main class="principal">
         <h2 class="titulo-pagina">Início</h2>
-        <article class="cartao">
-            <img src="assets/img/banner-mobile_1.png" alt="Banner do cartão" class="cartao__imagem">
+        <article class="cartao destaque-video">
+            <img src="assets/img/banner-mobile_1.png" alt="Banner do cartão" class="cartao__imagem cartao__imagem--mobile">
+            <img src="assets/img/banner_1.png" alt="Banner do cartão" class="cartao__imagem cartao__imagem--desktop">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque">Video em destaque</p>
                 <h3 class="cartao__titulo">Vídeo Título</h3>
@@ -43,7 +45,38 @@
                 <button class="cartao__botao cartao__botao--destaque cartao__botao--play">Assistir agora</button>
             </div>
         </article>
-        <section class="secao">
+        <article class="cartao cartao-recentes videos-recentes">
+            <h3 class="cartao__titulo">Videos recentes</h3>
+            <a href="#" class="cartao__link">Ver todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_3.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_2.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_3.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_4.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_1.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+            </ul>
+        </article>
+        <section class="secao secao-videos">
             <h3 class="secao-titulo">Vídeos mais vistos</h3>
             <article class="cartao">
                 <img src="assets/img/video_1.png" alt="Banner do cartão" class="cartao__imagem">
@@ -82,8 +115,45 @@
                 </div>
             </article>
         </section>
-        <article class="cartao">
-            <img src="assets/img/banner-mobile_2.png" alt="Banner do cartão" class="cartao__imagem">
+        <article class="cartao cartao-recentes">
+            <h3 class="cartao__titulo">Videos recentes</h3>
+            <a href="#" class="cartao__link">Ver todos</a>
+            <ul class="cartao__lista">
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_1.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_2.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_3.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_4.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_1.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+                <li class="cartao__item">
+                    <img src="assets/img/miniatura_1.png" alt="miniatura" class="cartao__item-miniatura">
+                    <h4 class="cartao__item-titulo">HZC - Love Machine</h4>
+                    <p class="cartao__item-perfil">Henrique Alves</p>
+                </li>
+            </ul>
+        </article>
+        <article class="cartao produtos-recentes">
+            <img src="assets/img/banner-mobile_2.png" alt="Banner do cartão" class="cartao__imagem cartao__imagem--mobile">
+            <img src="assets/img/banner_2.png" alt="Banner do cartão" class="cartao__imagem cartao__imagem--desktop">
             <div class="cartao__conteudo">
                 <p class="cartao__destaque">Promoção</p>
                 <h3 class="cartao__titulo">Produto principal</h3>
@@ -93,7 +163,7 @@
                 <button class="cartao__botao cartao__botao--destaque cartao__botao--cart">Comprar agora</button>
             </div>
         </article>
-        <section class="secao">
+        <section class="secao secao-produtos">
             <h3 class="secao-titulo">Produtos em destaque</h3>
             <article class="cartao">
                 <img src="assets/img/produto_1.png" alt="Banner do cartão" class="cartao__imagem">

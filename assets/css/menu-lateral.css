@@ -7,6 +7,7 @@
     left: -76vw;
     width: 75vw;
     transition: all 0.6s ease-in-out;
+    top:60px;
 }
 
 .menu-lateral--visivel{
@@ -31,8 +32,6 @@
     border-left: 8px solid #FFFFFF;
     color: #FFFFFF;
     padding-left: 56px;
-
-
 }
 
 .menu-lateral__link::before{
@@ -68,4 +67,12 @@
     content: "\e90a";
 }
 
+@media screen and (min-width: 1440px){
+    .menu-lateral{
+        position: static;
+        width: 200px;
+        grid-column: 1;
+        grid-row: 1 / span 2;
 
+    }
+}
