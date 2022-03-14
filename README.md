@@ -1,3 +1,7 @@
+# Esse projeto se trata de uma ``landing page``.
+## Essa página foi desenvolvida usando a arquitetura `Atomic CSS` e o padrão `BEM CSS`.
+#
+
 # Guia de estilos
 
 Toda a estilização que será usada no projeto dentro do figma.
