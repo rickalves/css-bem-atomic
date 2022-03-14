@@ -1,0 +1,8 @@
+.secao{
+    display: grid;
+    row-gap: 16px;
+}
+
+.secao-titulo{
+    font-size: 1.2rem;
+}
