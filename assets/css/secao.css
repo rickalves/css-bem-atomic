@@ -15,7 +15,7 @@
     grid-area: secao-produtos;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1024px){
     .secao{
         display: grid;
         grid-template-columns: repeat(4, 1fr);

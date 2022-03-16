@@ -27,7 +27,7 @@
     display: none;  
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1024px){
    .cabecalho{
        background-color: #1D232A;
        column-gap: 32px;
